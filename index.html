@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Dosis|Fredoka+One"
+      rel="stylesheet"
+    />
+    <link href="/src/styles.css" rel="stylesheet" type="text/css" />
+    <!-- <link href="/src/tabsy.css" rel="stylesheet" type="text/css" /> -->
+    <title>Restaurant Page</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav collapsible">
+        <img
+          class="banner_image"
+          src="images/nicolas-perondi-UxRhrU8fPHQ-unsplash.jpg"
+          alt=""
+        />
+        <div>
+          <div class="orderItem" id="orderItem">empty..</div>
+          <button class="btn btn--secondary btn--cart" id="clearCart">
+            clear cart
+          </button>
+        </div>
+        <svg class="icon icon--white nav__toggler">
+          <use href="images/sprite.svg#menu"></use>
+        </svg>
+        <ul class="list nav__list collapsible__content">
+          <li class="nav__item" id="nav-item1"><a class="pageLink">Menu</a></li>
+          <li class="nav__item" id="nav-item2">
+            <a class="pageLink">Hours</a>
+          </li>
+          <li class="nav__item" id="nav-item3">
+            <a class="pageLink">Location</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="block block--dark block--skewed-left hero">
+      <div class="container grid grid--1x2">
+        <header class="block__header hero__content">
+          <h1 data-aos="fade-right" class="block__heading">Pizza Shakes</h1>
+          <p class="hero__tagline">
+            Why chew and chomp pizza, when you can drink it?!
+          </p>
+          <div id="content"></div>
+        </header>
+      </div>
+    </section>
+
+    <script src="main.js"></script>
+  </body>
+</html>
