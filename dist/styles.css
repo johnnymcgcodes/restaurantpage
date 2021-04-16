@@ -26,7 +26,7 @@ html {
   background-color: black;
 }
 img {
-  width: 100%;
+  width: auto;
 }
 
 body {
@@ -437,7 +437,7 @@ a {
   position: fixed;
   top: 0;
   left: 0;
-  height: 80px;
+  height: 40px;
   background-color: red;
   z-index: 1;
   width: 100%;
@@ -680,8 +680,8 @@ a {
 }
 
 .banner_image {
-  width: 30vw;
-  height: 30vw;
+  width: 15vw;
+  height: 15vw;
   border-top-right-radius: 3rem;
   border-bottom-right-radius: 3rem;
 }
